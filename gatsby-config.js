@@ -3,6 +3,7 @@ module.exports = {
     title: `Spark Racer`,
     description: `Le meilleur endroit pour devenir un meilleur pilote.`,
     author: `@gougou934`,
+    lang: `fr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Spark Racer`,
+        short_name: `Spark Racer`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -32,5 +33,6 @@ module.exports = {
     `gatsby-plugin-offline`,
 
     'gatsby-plugin-postcss',
+    
   ],
 }

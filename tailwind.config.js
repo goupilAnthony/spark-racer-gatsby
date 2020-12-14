@@ -5,10 +5,17 @@ module.exports = {
     extend: {
       transitionProperty: {
         'height': 'height'
+      },
+      spacing: {
+        '50': '15rem',
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
       }
     },
   },
   variants: {
+    display: ['responsive', 'group-hover', 'group-focus'],
     extend: {
       
     },
