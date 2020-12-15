@@ -2,7 +2,8 @@
 prix: 15
 nom: Le produit de Forestry
 id-produit: forestry-product
-images: []
+images:
+- "../aaron_huber_kxefuxta_mooh1.jpg"
 description: une super becane
 avec-option: true
 options:
