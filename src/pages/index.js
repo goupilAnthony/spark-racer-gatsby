@@ -7,16 +7,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      <link rel="preconnect" href="https://app.snipcart.com"/>
-      <link rel="preconnect" href="https://cdn.snipcart.com"/>
-      <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
       
-
-      <p>seifuhz</p>
-
       <button className="snipcart-add-item"
         data-item-id="starry-night"
-        data-item-price="79.99"
+        data-item-price="79.9"
         data-item-url="/"
         data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
         data-item-image="/products-images/starry-night.jpg"
@@ -27,8 +21,7 @@ const IndexPage = () => (
       </button>
 
 
-    <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
-    <div hidden id="snipcart" data-api-key={`${process.env.GATSBY_SNIPCART_API_KEY}`}></div>
+    
   </Layout>
 )
 
