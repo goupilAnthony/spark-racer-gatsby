@@ -79,3 +79,5 @@ fields:
   showOnly:
     field: avec-option
     value: true
+pages:
+- products/produit-test-forestry.md
