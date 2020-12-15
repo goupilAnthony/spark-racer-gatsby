@@ -80,4 +80,5 @@ fields:
     field: avec-option
     value: true
 pages:
+- products/produit-bidon-2.md
 - products/produit-test-forestry.md
