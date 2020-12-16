@@ -46,5 +46,59 @@ sous-categories:
   - template: categories
     nom_categorie: Té de fourche & Pontet
     sous-categories: []
+- template: categories
+  nom_categorie: Moteur & Ligne
+  sous-categories:
+  - template: categories
+    nom_categorie: Allumage & Carter d'allumage
+    sous-categories: []
+  - template: categories
+    nom_categorie: Arbres à cames
+    sous-categories: []
+  - template: categories
+    nom_categorie: Bougies
+    sous-categories: []
+  - template: categories
+    nom_categorie: Chaine de distribution
+    sous-categories: []
+  - template: categories
+    nom_categorie: Cylindre & Culasse
+    sous-categories: []
+  - template: categories
+    nom_categorie: Embrayage
+    sous-categories: []
+  - template: categories
+    nom_categorie: Joints moteur
+    sous-categories: []
+  - template: categories
+    nom_categorie: Piston
+    sous-categories: []
+  - template: categories
+    nom_categorie: Radiateur
+    sous-categories: []
+  - template: categories
+    nom_categorie: Segment
+    sous-categories: []
+  - template: categories
+    nom_categorie: Soupape
+    sous-categories: []
+  - template: categories
+    nom_categorie: Bielle & Vilebrequin
+    sous-categories: []
+  - template: categories
+    nom_categorie: Pot 2 temps
+    sous-categories: []
+  - template: categories
+    nom_categorie: Pot 4 temps
+    sous-categories: []
+  - template: categories
+    nom_categorie: Silencieux 2 temps
+    sous-categories: []
+  - template: categories
+    nom_categorie: Silencieux 4 temps
+    sous-categories: []
+  - template: categories
+    nom_categorie: Accessoires d'échappement
+    sous-categories: []
 
 ---
