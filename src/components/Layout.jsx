@@ -6,9 +6,10 @@ const Layout = ({ children }) => {
     return (
         <div className="flex flex-col min-h-screen">
             <Header />
-            <div className="flex-grow">
+            <a className="absolute -top-10 focus:top-0" href="#maincontent">Skip to main</a>
+            <main id="maincontent" className="flex-grow">
                 {children}
-            </div>
+            </main>
             <Footer />
 
         </div>
