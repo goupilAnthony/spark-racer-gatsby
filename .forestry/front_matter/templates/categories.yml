@@ -16,5 +16,3 @@ fields:
     min: 
     max: 
   label: Sous-catégories
-pages:
-- categories/pieces.md
