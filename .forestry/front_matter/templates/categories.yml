@@ -16,3 +16,5 @@ fields:
     min: 
     max: 
   label: Sous-catégories
+pages:
+- categories/cable-embrayage-gaz.md
