@@ -1,4 +1,17 @@
 ---
 label: Catégories
 hide_body: true
-fields: []
+fields:
+- name: nom_categorie
+  type: text
+  config:
+    required: false
+  label: Nom catégorie
+- name: sous-categories
+  type: blocks
+  template_types:
+  - categories
+  config:
+    min: 
+    max: 
+  label: Sous-catégories
