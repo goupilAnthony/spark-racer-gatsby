@@ -1,6 +1,7 @@
 ---
 label: Catégories
 hide_body: true
+display_field: nom_categorie
 fields:
 - name: nom_categorie
   type: text
