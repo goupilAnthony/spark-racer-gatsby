@@ -1,19 +1,11 @@
 module.exports = {
-  siteMetadata: {
-    title: `Spark Racer`,
-    description: `Le meilleur endroit pour devenir un meilleur pilote.`,
-    author: `@gougou934`,
-    lang: `fr`,
-  },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+    siteMetadata: {
+        title: `Spark Racer`,
+        description: `Le meilleur endroit pour devenir un meilleur pilote.`,
+        author: `@gougou934`,
+        lang: `fr`,
     },
+    plugins:[
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -45,12 +37,12 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
 
-    'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-snipcartv3',
-      options: {
-        apiKey: process.env.GATSBY_SNIPCART_API_KEY
-      }
-    }
-  ],
+        'gatsby-plugin-postcss',
+        {
+            resolve: 'gatsby-plugin-snipcartv3',
+            options: {
+                apiKey: process.env.GATSBY_SNIPCART_API_KEY
+            }
+        }
+    ],
 }

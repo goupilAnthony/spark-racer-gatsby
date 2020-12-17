@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "nom": "Pièces",
+            "slug": "pieces",
+            "sous-categories": [
+                {
+                    "nom": "Guidon & Commandes",
+                    "slug": "guidon-commandes",
+                    "sous-categories": [
+                        {
+                            "nom": "Cables d’embrayage & gaz",
+                            "slug": "cables-embrayage-gaz",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Cocottes d’embrayage",
+                            "slug": "cocottes-embrayage",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Donuts de poignées",
+                            "slug": "donuts-poignees",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Guidon",
+                            "slug": "guidon",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Kick",
+                            "slug": "kick",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Leviers de frein",
+                            "slug": "leviers-frein",
+                            "sous-categories": []
+                        }
+                    ]
+                },
+                {
+                    "nom": "Moteur & Ligne",
+                    "slug": "moteur-ligne",
+                    "sous-categories": [
+                        {
+                            "nom": "Allumage & Carter d'allumage",
+                            "slug": "allumage-carter",
+                            "sous-categories": []
+                        },
+                        {
+                            "nom": "Arbres à cames",
+                            "slug": "arbres-cames",
+                            "sous-categories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "Équipements",
+            "slug": "equipements",
+            "sous-categories": []
+        },
+        {
+            "nom": "Entretien & Outillage",
+            "slug": "entretient-outillage",
+            "sous-categories": []
+        },
+        {
+            "nom": "Pneumatiques",
+            "slug": "pneumatiques",
+            "sous-categories": []
+        },
+        {
+            "nom": "Sportswear",
+            "slug": "sportswear",
+            "sous-categories": []
+        }
+    ]
+}

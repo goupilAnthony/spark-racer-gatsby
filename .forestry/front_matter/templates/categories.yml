@@ -1,0 +1,22 @@
+---
+label: Catégories
+hide_body: true
+display_field: nom_categorie
+fields:
+- name: nom_categorie
+  type: text
+  config:
+    required: false
+  label: Nom catégorie
+- name: sous-categories
+  type: blocks
+  template_types:
+  - categories
+  config:
+    min: 
+    max: 
+  label: Sous-catégories
+pages:
+- categories/cable-embrayage-gaz.md
+- categories/cocottes-embrayage.md
+- categories/pieces.md
