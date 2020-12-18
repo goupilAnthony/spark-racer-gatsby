@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 import MenuIcon from '@material-ui/icons/Menu'
 import IconButton from '@material-ui/core/IconButton'
 import NavbarDesk from './NavbarDesk'
+import NavbarMobile from './NavbarMobile'
+
+let categories = require("../../categories.json")
 
 const Header = () => {
 
@@ -11,6 +14,7 @@ const Header = () => {
         document.querySelector('#mobile-nav').classList.toggle("hidden");
         document.querySelector('#mobile-nav').classList.toggle("h-screen");
     }
+    
 
     return (
         <nav>
@@ -20,19 +24,14 @@ const Header = () => {
                         <Logo />
                     </Link>
                 </div>
-                <NavbarDesk />
+                <NavbarDesk categories={categories} />
                 <div className="w-12 h-12 ml-auto mr-1 my-auto hover:bg-opacity-25 hover:bg-white rounded-full lg:hidden">
                     <IconButton onClick={handleClick} aria-label="toggle-menu">
                         <MenuIcon className="text-white " />
                     </IconButton>
                 </div>
             </div>
-            <div className="flex flex-col bg-black bg-opacity-90 text-white z-10 lg:hidden hidden transition-height duration-500 ease-out h-0" id="mobile-nav">
-                <Link to="/" className="p-3 hover:bg-white hover:bg-opacity-25 w-auto">zefzefq</Link>
-                <Link to="/" className="p-3 hover:bg-white hover:bg-opacity-25 w-auto">zefzefq</Link>
-                <Link to="/" className="p-3 hover:bg-white hover:bg-opacity-25 w-auto">zefzefq</Link>
-                <Link to="/" className="p-3 hover:bg-white hover:bg-opacity-25 w-auto">zefzefq</Link>
-            </div>
+            <NavbarMobile categories={categories} />
         </nav>
     )
 }
