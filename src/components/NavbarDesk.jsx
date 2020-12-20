@@ -4,17 +4,18 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'
 import IconButton from '@material-ui/core/IconButton'
 import NavbarDeskDropdown from './NavbarDeskDropdown'
 
+const createItem = item => {
+    return <NavbarDeskDropdown nom={item.nom} slug={item.slug} sousCategories={item.sousCategories} />
+}
 
 
-const NavbarDesk = () => {
+const NavbarDesk = ({categories}) => {
     return (
         <div className="lg:flex text-white w-auto hidden ml-auto mr-3">
                 <div className="flex gap-3 mr-12"> 
-                    <NavbarDeskDropdown />
-                    <NavbarDeskDropdown />
-                    <NavbarDeskDropdown />
-                    <NavbarDeskDropdown />
-                        
+                    {categories.map( item => {
+                        return <NavbarDeskDropdown nom={item.nom} slug={item.slug} sousCategories={item.sousCategories} />
+                    })}
                 </div>
                 <div className="flex gap-1 text-white">
                     <div className="cursor-pointer my-auto text-2xl hover:bg-opacity-25 hover:bg-white text-white rounded-full">
