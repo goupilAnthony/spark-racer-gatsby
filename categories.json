@@ -1,58 +1,57 @@
-{
-    "categories": [
+[
         {
             "nom": "Pièces",
             "slug": "pieces",
-            "sous-categories": [
+            "sousCategories": [
                 {
                     "nom": "Guidon & Commandes",
                     "slug": "guidon-commandes",
-                    "sous-categories": [
+                    "sousCategories": [
                         {
                             "nom": "Cables d’embrayage & gaz",
                             "slug": "cables-embrayage-gaz",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Cocottes d’embrayage",
                             "slug": "cocottes-embrayage",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Donuts de poignées",
                             "slug": "donuts-poignees",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Guidon",
                             "slug": "guidon",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Kick",
                             "slug": "kick",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Leviers de frein",
                             "slug": "leviers-frein",
-                            "sous-categories": []
+                            "sousCategories": []
                         }
                     ]
                 },
                 {
                     "nom": "Moteur & Ligne",
                     "slug": "moteur-ligne",
-                    "sous-categories": [
+                    "sousCategories": [
                         {
                             "nom": "Allumage & Carter d'allumage",
                             "slug": "allumage-carter",
-                            "sous-categories": []
+                            "sousCategories": []
                         },
                         {
                             "nom": "Arbres à cames",
                             "slug": "arbres-cames",
-                            "sous-categories": []
+                            "sousCategories": []
                         }
                     ]
                 }
@@ -61,22 +60,21 @@
         {
             "nom": "Équipements",
             "slug": "equipements",
-            "sous-categories": []
+            "sousCategories": []
         },
         {
             "nom": "Entretien & Outillage",
             "slug": "entretient-outillage",
-            "sous-categories": []
+            "sousCategories": []
         },
         {
             "nom": "Pneumatiques",
             "slug": "pneumatiques",
-            "sous-categories": []
+            "sousCategories": []
         },
         {
             "nom": "Sportswear",
             "slug": "sportswear",
-            "sous-categories": []
+            "sousCategories": []
         }
     ]
-}
