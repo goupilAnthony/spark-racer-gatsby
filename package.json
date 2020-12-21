@@ -19,6 +19,7 @@
         "gatsby-plugin-sharp": "^2.8.0",
         "gatsby-plugin-snipcartv3": "^2.3.3",
         "gatsby-source-filesystem": "^2.5.0",
+        "gatsby-transformer-remark": "^2.13.0",
         "gatsby-transformer-sharp": "^2.6.0",
         "postcss": "^8.2.1",
         "prop-types": "^15.7.2",
