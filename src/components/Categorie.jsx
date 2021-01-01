@@ -8,10 +8,6 @@ const CategoriePage = ({ nom, slug }) => (
     <Layout>
         <SEO title={nom} />
         <h1>{nom}</h1>
-        
-
-
-
     </Layout>
 )
 

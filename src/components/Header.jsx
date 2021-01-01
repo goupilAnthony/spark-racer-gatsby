@@ -3,8 +3,8 @@ import Logo from './Logo'
 import { Link } from "gatsby"
 import MenuIcon from '@material-ui/icons/Menu'
 import IconButton from '@material-ui/core/IconButton'
-import NavbarDesk from './NavbarDesk'
-import NavbarMobile from './NavbarMobile'
+import NavbarDesk from './NavbarDesk/NavbarDesk'
+import NavbarMobile from './NavbarMobile/NavbarMobile'
 
 let categories = require("../../categories.json")
 
