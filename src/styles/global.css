@@ -9,3 +9,15 @@
 *::-webkit-scrollbar {
     display: none;
   }
+
+  .slick-next::before {
+      position: relative !important;
+      left: -26px !important;
+      color: black !important;
+  }
+  .slick-prev::before {
+      position: relative !important;
+      left: 26px !important;
+      color: black !important;
+      z-index: 90;
+  }

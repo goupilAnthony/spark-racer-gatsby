@@ -3,7 +3,8 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
