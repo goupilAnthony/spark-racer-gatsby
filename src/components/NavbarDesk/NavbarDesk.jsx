@@ -2,11 +2,7 @@ import React from 'react'
 import AccountCircle from '@material-ui/icons/AccountCircle'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'
 import IconButton from '@material-ui/core/IconButton'
-import NavbarDeskDropdown from './NavbarDeskDropdown'
-
-const createItem = item => {
-    return <NavbarDeskDropdown nom={item.nom} slug={item.slug} sousCategories={item.sousCategories} />
-}
+import NavbarDeskTopCategory from './NavbarDeskTopCategory'
 
 
 const NavbarDesk = ({categories}) => {
@@ -14,7 +10,7 @@ const NavbarDesk = ({categories}) => {
         <div className="lg:flex text-white w-auto hidden ml-auto mr-3">
                 <div className="flex gap-3 mr-12"> 
                     {categories.map( item => {
-                        return <NavbarDeskDropdown nom={item.nom} slug={item.slug} sousCategories={item.sousCategories} />
+                        return <NavbarDeskTopCategory nom={item.nom} slug={item.slug} sousCategories={item.sousCategories} />
                     })}
                 </div>
                 <div className="flex gap-1 text-white">
