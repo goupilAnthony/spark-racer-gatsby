@@ -8,7 +8,7 @@ const SimpleCategorie = ({ item }) => {
             role="menuitem"
             tabIndex={0}
         >
-            <Link href={item.slug} >{item.nom}</Link>
+            <Link href={item.slug} className=" hover:text-white hover:no-underline">{item.nom}</Link>
         </div>
     )
 }
