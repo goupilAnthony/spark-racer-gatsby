@@ -1,19 +1,11 @@
 import React from "react"
-//import { Link } from "gatsby"
-import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import Slider from "react-slick"
+import Carousel from 'react-bootstrap/Carousel'
 
 const ProductPage = ({ pageContext }) => {
     console.log(pageContext.data)
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
+
     return (
         <Layout>
             <SEO title={pageContext.data.nom} />
@@ -23,14 +15,14 @@ const ProductPage = ({ pageContext }) => {
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2">
 
-                    <Slider className="mx-3 mb-8" {...settings}>
+                    <Carousel className="mx-3 mb-8" interval={null}>
                         {pageContext.data.images.map((image) => {
                             if (image){
-                                return <img src={image.childImageSharp.fluid.src} className="w-full"/>//<Img className="h-full" fluid={image.childImageSharp.fluid} />
+                                return <Carousel.Item><img src={image.childImageSharp.fluid.src} className="w-full"/></Carousel.Item> //<Img className="h-full" fluid={image.childImageSharp.fluid} />
                             }
                             return null
                         })}
-                    </Slider>
+                    </Carousel>
                     <div className="mx-5">
                         <div className="my-5">{pageContext.data.description}</div>
                         {pageContext.data.options.map((option) => {
